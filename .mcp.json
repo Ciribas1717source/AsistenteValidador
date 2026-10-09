@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "fedpat-doctec": {
+      "type": "stdio",
+      "command": "uv",
+      "args": ["--directory", "C:\\Tools\\fedpat-mcp-dist-20260706", "run", "-m", "fedpat_doctec"]
+    },
+    "fedpat-flocktools": {
+      "type": "stdio",
+      "command": "uv",
+      "args": ["--directory", "C:\\Tools\\fedpat-mcp-dist-20260706", "run", "-m", "fedpat_flocktools"]
+    },
+    "fedpat-jira": {
+      "type": "stdio",
+      "command": "uv",
+      "args": ["--directory", "C:\\Tools\\fedpat-mcp-dist-20260706", "run", "-m", "fedpat_jira"]
+    }
+  }
+}
